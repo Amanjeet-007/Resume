@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 827px;
+    height: 1169px;
+    /* position: absolute; */
+}
+.page{
+    height: 100%;
+    width: 100%;
+
+}
+.page h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 40px 50px 30px 50px;
+    font-size: 40px;
+    display: contents;
+    
+    
+}
+.head{
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.line{
+    background-color: rgb(0, 0, 0);
+    height: 10px;
+    width: 60%;
+    border-radius: 10px;
+    
+}
+main{
+    display: flex;
+    height: calc(100% - 80px); ;
+}
+.left{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    height: 100%;
+    width: 30%;
+    background-color: black;
+    color: white;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.pic{
+    margin-top: 20px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex; 
+}
+.pic img{
+    width: 120px;
+}
+.contact , .edu{
+    
+    /* height: min-content; */
+    height: 400px;
+    margin-top: 30px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+.contact h3,.edu h3{
+    text-align: center;
+    color: #000000;
+    font-size: 27px;
+    font-family: monospace;
+    font-weight: 600;
+}
+.edu .name{
+    height: min-content;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 18px;
+}
+.contact .i{
+    display: flex;
+    height: 90%;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    color: #000000;
+    width: 90%;
+}
+
+.contact .i .icon{
+    margin-top: 15px;
+    margin-bottom: 7px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+}
+.contact .i p{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    font-family: sans-serif;
+}
+.right{
+    margin-top: 30px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 100%;
+    background-color: rgb(244, 244, 244);
+    width: 70%;
+    color: #bababa;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.rtop{
+    margin-top: 20px;
+    
+    height:70px ;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.git{
+    flex-direction: column;
+    border-radius: 30px;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: black;
+}
+.git p{
+    font-size: 20px;
+    text-align: center;
+
+}
+.summary , .skill , .project{
+    margin-top: 20px;
+    color: black;
+    height: 300px;
+    width: 96%;
+    border-radius: 20px;
+}
+.skill h3 ,.project h3 ,.summary h3{
+    font-weight: 700;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.skill h4{
+    font-weight: 500;
+    margin: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.skill li{
+    font-family:sans-serif;
+    margin-left:40px;
+    list-style: square;
+}
+.summary{
+    text-align: center;
+}
+.summary p{
+    font-weight:normal;
+    font-family: sans-serif;
+    font-size: 17px;
+    word-spacing: 2px;
+
+}
+.project h5{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 7px 0px;
+}
+.project ol{
+    margin: 10px 20px;
+}
+.project ol li{
+    margin-top: 5px;
+}
