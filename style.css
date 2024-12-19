@@ -7,7 +7,9 @@
 html,body{
     width: 827px;
     height: 1169px;
-    /* position: absolute; */
+    display:flex;
+    justify-content:center;
+    align-iteams:center;
 }
 .page{
     height: 100%;
